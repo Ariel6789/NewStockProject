@@ -4,8 +4,7 @@ import model.StockService;
 import view.StockView;
 
 public class ControlImpl implements Control {
-
-    public ControlImpl(StockService stockService, StockView stockView) {
+    public void ControlImpl(StockService stockService, StockView stockView) {
 
     }
 
