@@ -73,7 +73,7 @@ public class StockMarketData {
         JsonObject currentData = timeSeries.getAsJsonObject(currentDate);
 
         // Extract the closing price for the most recent day
-        double closingPrice = currentData.get("4. close").getAsDouble();  // Get the closing price as a double
+        double closingPrice = currentData.get("4 close").getAsDouble();  // Get the closing price as a double
 
         // Return the closing price
         return closingPrice;

@@ -35,7 +35,7 @@ public class StockService {
             report.append(String.format("Stock: %s | Price: $%s\n", stock, DF.format(price)));  // Use DF instead of df
         }
         // Append the total portfolio value to the report
-        report.append(String.format("Total Portfolio Value: $%s\n", DF.format(totalValue)));  // Use DF instead of df
+        report.append(String.format(" Portfolio Value: $%s\n", DF.format(totalValue)));  // Use DF instead of df
         return report.toString();
     }
 }
